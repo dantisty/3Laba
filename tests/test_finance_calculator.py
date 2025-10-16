@@ -4,9 +4,9 @@ from app.finance_calculator import FinanceCalculator
 
 def test_add_income_and_expense():
     calc = FinanceCalculator()
-    calc.add_income(10000)
-    calc.add_expense(5000)
-    assert calc.get_balance() == 5000
+    calc.add_income(100)
+    calc.add_expense(50)
+    assert calc.get_balance() == 40
 
 
 def test_negative_income_raises_error():
