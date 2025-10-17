@@ -4,8 +4,8 @@ from app.finance_calculator import FinanceCalculator
 def main():
     calc = FinanceCalculator()
 
-    calc.add_income(10000)
-    calc.add_expense(850)
+    calc.add_income(100000)
+    calc.add_expense(650)
     calc.add_income(500)
     calc.add_expense(300)
 
