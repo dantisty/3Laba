@@ -9,7 +9,7 @@ def main():
     calc.add_income(500)
     calc.add_expense(300)
 
-    print("= Результат!!!!!! =")
+    print("= RESULT =")
     print(f"Current balance: {calc.get_balance()}")
 
 
