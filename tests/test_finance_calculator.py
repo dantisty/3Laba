@@ -6,7 +6,7 @@ def test_add_income_and_expense():
     calc = FinanceCalculator()
     calc.add_income(100)
     calc.add_expense(50)
-    assert calc.get_balance() == 60
+    assert calc.get_balance() == 50
 
 
 def test_negative_income_raises_error():
